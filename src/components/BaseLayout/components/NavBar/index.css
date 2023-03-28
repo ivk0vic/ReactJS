@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  background: #314257;
+  height: 3em;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  font-weight: 600;
+  width: 90vw;
+  margin: 0;
+  height: 3em;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar li a {
+  text-decoration: none;
+  margin: 0 1em;
+  color: white;
+  transition: 0.5s;
+}
+
+.navbar li a:hover {
+  background-color: white;
+  transition: 0.5s;
+  color: #314257;
+}
